@@ -169,3 +169,19 @@ const prompt=require('prompt-sync')()
 // console.log(ans)
 
 
+
+
+
+let x=123;
+let copy=x;
+let rem,rev=0;
+while(x>0){
+    rem=x%10;
+    rev=(rev*10)+rem;
+    x=Math.floor(x/10)
+
+    
+}
+console.log(typeof(rev));
+
+
