@@ -170,3 +170,100 @@ const prompt = require("prompt-sync")();;
 
 
 
+
+
+
+
+
+
+// 7] print frequency of each character in a string;
+
+
+
+
+
+
+
+// let str= prompt("Enter a string ");
+// let freqArr= new Array(123).fill(0);
+// for(let i=0;i<str.length;i++){
+//     let ascii=str.charCodeAt(i);
+//     freqArr[ascii] =freqArr[ascii] + 1;
+
+// }
+// for(let i=0;i<freqArr.length;i++){
+//     if(freqArr[i]>0){
+//         console.log(String.fromCharCode(i) +" -> " + freqArr[i]);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 8] check whether the given strings are anagram or not ,example of anagrams:
+// arc and car , state and taste, thing and night
+
+
+
+
+
+// let s1=prompt("enter 1st string ");
+// let s2= prompt("Enter 2nd srtig ");
+// let freqArr=new Array(123).fill(0);
+// if(s1.length!=s2.length){
+//     console.log("Given strings are not Anagram");
+    
+// }
+// else {
+//     let isAnagram=true;
+//     for(let i=0;i<s1.length;i++){
+//         let ascii= s1.charCodeAt(i);
+//         freqArr[ascii]= freqArr[ascii] +1;
+//     }
+
+//      for(let i=0;i<s2.length;i++){
+//         let ascii= s1.charCodeAt(i);
+//         freqArr[ascii]= freqArr[ascii] -1;
+//     }
+//     for(let i=0;i<freqArr.length;i++){
+//         if(freqArr[i]!=0){
+//             isAnagram=false;
+//             break;
+//         }
+//     }
+//     if(isAnagram) console.log("Given Strings are Anagram")
+//         else console.log("Given Strings are not Anagram")
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
