@@ -255,6 +255,13 @@ const prompt = require("prompt-sync")();;
 
 
 
+let n=Number(prompt("Enter a number"));
+console.log((n^1)===1 ? "power of 2": "not power of 2" );
+
+
+
+
+
 
 
 
