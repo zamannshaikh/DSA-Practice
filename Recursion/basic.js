@@ -1,6 +1,6 @@
 let prompt = require('prompt-sync')();
 
-let n=Number(prompt("Enter number "))
+// let n=Number(prompt("Enter number "))
 
 
 // 1] sum of n using recursion
@@ -96,3 +96,49 @@ let n=Number(prompt("Enter number "))
 // }
 // console.log(fiboSum(n))
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 5] sum of digits of a number using recursion
+
+// let sum=0
+
+// function sumOfDigits(n){
+//     if(n<10) return n
+//     return (n%10) +sumOfDigits(Math.floor(n/10))
+
+// }
+// console.log(sumOfDigits(n))
+
+
+
+
+
+// 6] reverse of a number
+
+// let rev;
+// function reverse(n,rev){
+//     if(n==0) return rev
+//     return reverse(Math.floor(n/10),(rev*10)+(n%10))
+
+// }
+// console.log(reverse(n,0));
+
+
+let str="Zaman@ 123 :"
+str.toLowerCase()
+console.log(str)
