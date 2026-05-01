@@ -26,6 +26,7 @@ const prompt=require('prompt-sync')()
 
 
 
+
 // 2] take input from user and print in matrix form;
 
 // let rows =Number(prompt("Enter number of rows "));

@@ -95,3 +95,24 @@
 //     arr[arr.length-1]=temp
 // }
 // console.log(arr);
+ 
+// 7] shift the elements by k times (most optimized version)( also known as
+// block swap reverse algorithm)
+
+
+// let arr=[1,2,3,4,5,6];
+
+// let k=2
+// reverse(arr,0,k-1);
+// reverse(arr,k,arr.length-1);
+// reverse(arr,0,arr.length-1);
+// console.log(arr)
+
+// function reverse(arr,start,end){
+//     while(start<end){
+//         let temp=arr[end];
+//         arr[end]=arr[start];
+//         arr[start]=temp;
+//         start++;
+//     }
+// }
