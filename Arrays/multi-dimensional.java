@@ -134,3 +134,63 @@
 //         }
 //     }
 // }
+
+
+
+
+
+
+
+
+//4. Spiral order of a matrix
+
+
+
+// import java.util.Scanner;
+// import java.util.Arrays;
+// import java.util.ArrayList;
+// public class Main{
+
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         int n=sc.nextInt();
+//         int m=sc.nextInt();
+        
+//         int[][] matrix=new int[n][m];
+//         for(int i=0;i<matrix.length;i++){
+//             for(int j=0;j<matrix[i].length;j++){
+//                 matrix[i][j]=sc.nextInt();
+//             }
+//         }
+        
+//         int minrow=0,maxrow=matrix.length-1;
+//         int mincol=0,maxcol=matrix[0].length-1;
+//         ArrayList<Integer> ans=new ArrayList<>();
+          
+//          while(ans.size()<m*n){
+//              for(int i=mincol;i<=maxcol && ans.size()<m*n;i++){
+//                  ans.add(matrix[minrow][i]);
+//              }
+//              minrow++;
+//              for(int i=minrow;i<=maxrow && ans.size()<m*n;i++){
+//                  ans.add(matrix[i][maxcol]);
+//              }
+//              maxcol--;
+//              for(int i=maxcol;i>=mincol && ans.size()<m*n;i--){
+//                  ans.add(matrix[maxrow][i]);
+//              }
+//              maxrow--;
+//              for(int i=maxrow;i>=minrow && ans.size()<m*n;i--){
+//                  ans.add(matrix[i][mincol]);
+               
+//              }
+//                mincol++;
+             
+//          } 
+//          for(int i=0;i<ans.size();i++){
+//             System.out.print(ans.get(i)); 
+//          }
+            
+       
+//     }
+// }
