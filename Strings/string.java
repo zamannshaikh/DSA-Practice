@@ -75,3 +75,105 @@
 //         System.out.print(str2);
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 4] frequency of each element 
+
+
+// import java.util.*;
+
+// class Main{
+//     public static void main(String[] args){
+//         int arr[]=new int[123];
+//         Arrays.fill(arr,0);
+//         Scanner sc=new Scanner(System.in);
+//         System.out.println("Enter String");
+//         String str=sc.nextLine();
+//         for(int i=0;i<str.length();i++){
+//             char c=str.charAt(i);
+//             int ascii=(int) c;
+//             arr[ascii]=arr[ascii]+1;
+            
+            
+            
+//         }
+        
+//         for(int i=0;i<arr.length;i++){
+//             if(arr[i]>0){
+//                 char ch=(char) i;
+//                 System.out.println(ch+"->"+arr[i]);
+//             }
+//         }
+//         sc.close();
+        
+        
+//     }
+// }
+
+
+
+
+
+
+
+//5] same question as above but the frequency should be printed in the order of the string and not alphabatically
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import java.util.*;
+
+// class Main{
+//     public static void main(String[] args){
+//         int arr[]=new int[123];
+//         Arrays.fill(arr,0);
+//         Scanner sc=new Scanner(System.in);
+//         System.out.println("Enter String");
+//         String str=sc.nextLine();
+//         for(int i=0;i<str.length();i++){
+//             char c=str.charAt(i);
+//             int ascii=(int) c;
+//             arr[ascii]=arr[ascii]+1;
+            
+            
+            
+//         }
+        
+//         for(int i=0;i<str.length();i++){
+//             char c=str.charAt(i);
+//             int ascii=(int) c;
+//            if(arr[ascii]>0){
+//                 System.out.println(c+"->"+arr[ascii]);
+//            }
+//            arr[ascii]=0;
+//         }
+//         sc.close();
+        
+        
+//     }
+// }
+
