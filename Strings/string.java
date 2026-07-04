@@ -177,3 +177,67 @@
 //     }
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+//6] Anagram or not :
+
+
+
+
+
+// import java.util.*;
+// class Main{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         boolean isAnagram=true;
+//         int arr[]=new int[123];
+//         Arrays.fill(arr,0);
+//         System.out.println("Enter first string ");
+//         String str1=sc.nextLine();
+
+//         System.out.println("Enter second string ");
+//                 String str2=sc.nextLine();
+        
+//         if(str1.length()!=str2.length()){
+//             System.out.println("Not Anagram");
+//         }
+//         else{
+            
+        
+//         for(int i=0;i<str1.length();i++){
+//             char c=str1.charAt(i);
+//             arr[c]=arr[c]+1;
+//         }
+        
+//         for(int i=0;i<str2.length();i++){
+//             char c=str2.charAt(i);
+//             arr[c]=arr[c]-1;
+//         }
+        
+//         for(int i=0;i<arr.length;i++){
+//            if(arr[i]!=0){
+               
+//                isAnagram=false;
+//                break;
+//            } 
+           
+//         }
+//         if(isAnagram){
+//             System.out.println("Anagram");
+//         }
+//         else{
+//             System.out.println("not anagram");
+//         }
+//         }
+//     }
+// }
+
