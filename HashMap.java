@@ -21,3 +21,42 @@
 //         }
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+//2] same question but using enchanced methods of map
+
+
+
+
+
+
+
+
+
+// import java.util.HashMap;
+// import java.util.Map;
+// class Main{
+//     public static void main(String[] args){
+//         int arr[]={1,2,3,2,1,23,4,5,4,4,5,2};
+//         HashMap<Integer,Integer> map=new HashMap<>();
+//         for(int i:arr){
+//             map.put(i,map.getOrDefault(i,0)+1);
+//         }
+        
+//         for(Map.Entry<Integer,Integer> entry:map.entrySet()){
+//             int key=entry.getKey();
+//             int val=entry.getValue();
+//             System.out.println(key+"=>"+" "+val);
+//         }
+//     }
+// }
