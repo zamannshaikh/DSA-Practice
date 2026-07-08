@@ -187,3 +187,37 @@
 //         return fiboSum(n-1) +fiboSum(n-2);
 //     }
 // }
+
+
+
+
+
+//6] sum of digits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Main {
+//     public static void main(String[] args) {
+//       int n=1234;
+//       System.out.print(sumOfDigits(n));
+//     }
+    
+//     public static int sumOfDigits(int n){
+//         if(n<10) return n;
+        
+//        return n%10+ sumOfDigits(n/10);
+//     }
+// }
+
