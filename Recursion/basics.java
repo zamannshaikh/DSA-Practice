@@ -98,3 +98,50 @@
 //         return n*fact(n-1);
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//4] print fibonacci series up to n numbers using recursion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Main {
+//     public static void main(String[] args) {
+//         int first=0,second=1;
+//         int n=10;
+        
+//         System.out.print(first+" "+second+" ");
+//         printFibo(n-1,first,second);
+//     }
+//    public static void printFibo(int n,int first,int second){
+//        if(n==0) return;
+//        int third=first+second;
+//        System.out.print(third+" ");
+//        printFibo(n-1,second,third);
+//    }
+// }
