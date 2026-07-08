@@ -145,3 +145,45 @@
 //        printFibo(n-1,second,third);
 //    }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//5] print sum of nth terms of fibonacci series 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Main {
+//     public static void main(String[] args) {
+//         int first=0,second=1;
+//         int n=7;
+        
+//         System.out.print(fiboSum(n));
+//     }
+//     public static int fiboSum(int n){
+//         if(n==0) return 0;
+//         if(n==1) return 1;
+//         return fiboSum(n-1) +fiboSum(n-2);
+//     }
+// }
