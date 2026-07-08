@@ -221,3 +221,24 @@
 //     }
 // }
 
+
+
+
+//7] reverse of digit
+
+
+
+
+// class Main {
+//     public static void main(String[] args) {
+//       int n=1234;
+//       System.out.print(reverse(n));
+//     }
+    
+//     public static int reverse(int n){
+//         if(n<10) return n;
+//         System.out.print(n%10);
+        
+//        return (n/10);
+//     }
+// }
