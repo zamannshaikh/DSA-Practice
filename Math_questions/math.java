@@ -32,3 +32,36 @@
 //         System.out.print(a);
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//3] method 3 using recursion
+
+
+
+
+
+
+
+// class Main {
+//     public static void main(String[] args) {
+//         System.out.print(gcd(16,24));
+//     }
+//     public static int gcd(int a,int b){
+//         if(a==b) return a;
+//         if(a>b) return gcd(a-b,b);
+//         else return gcd(a,b-a);
+//     }
+    
+// }
