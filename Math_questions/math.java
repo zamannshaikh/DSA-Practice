@@ -65,3 +65,22 @@
 //     }
     
 // }
+
+
+
+
+
+
+
+//4] method 4 of solving gcd
+
+// class Main {
+//     public static void main(String[] args) {
+//         System.out.print(gcd(16,32));
+//     }
+//     public static int gcd(int a,int b){
+//       if(b==0) return a;
+//       else return gcd(b,a%b);
+//     }
+    
+// }
